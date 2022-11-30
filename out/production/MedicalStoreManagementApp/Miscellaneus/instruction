@@ -1,0 +1,64 @@
+medicine:
+medicine name
+medicine type(syrup, tablet, eye drop, ear drop, etc)
+medicine serial number(unique)
+medicine quantity available
+medicine MRP
+
+user:
+user name
+userId(Unique)
+password
+
+functionality:
+
+1-> Login/Register:
+similar to previous application
+
+2-> Medicine Billing Management
+provide list of the medicines
+provide method to add a medicine in the cart
+provide an option to add more in cart or proceed to pay the price
+if aborted then all the changes are nullified else calculate the total price and make changes
+
+User Interface:
+
+1-> Main Menu:
+there has to be three options-
+a. Login
+b. Register
+c. Exit
+there has to be a user input for it and according to it, it should act in a similar way as in previous application.
+After Login or Register it should reach to User Menu
+
+2-> User Menu:
+a. Update profile(fire its own menu)
+b. Medicine manager
+c. LogOut
+
+3-> Update Profile:
+a. Update UserName
+b. Update Password
+c. Exit
+
+4-> Medicine Manager:
+a. Add a medicine
+b. View all medicine
+c. Billing Section
+d. Exit
+
+5-> Billing Section:
+a. View Cart
+b. Manage Cart
+c. Manage bill
+d. Discard Cart
+
+6-> Manage Cart:
+a. Add medicine in cart
+b. Remove medicine from cart
+c. exit cart
+
+7-> Manage Bill:
+a. View Bill
+b. Pay and Proceed
+c. Exit
